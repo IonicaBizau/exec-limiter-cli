@@ -2,7 +2,7 @@
 "use strict";
 
 const Tilda = require("tilda")
-    , ExecLimiter = require("..")
+    , ExecLimiter = require("exec-limiter")
     , readFile = require("read-utf8")
     ;
 

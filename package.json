@@ -1,6 +1,6 @@
 {
   "bin": {
-    "exec-limiter": "bin/exec-limiter.js"
+    "exec-limiter": "bin/exec-limiter-cli.js"
   },
   "name": "exec-limiter-cli",
   "description": "Run multiple shell commands in parallel, but with a limit.",
@@ -49,5 +49,8 @@
     "exec-limiter": "^3.2.5",
     "read-utf8": "^1.2.5",
     "tilda": "^4.4.5"
+  },
+  "blah": {
+    "api": "exec-limiter"
   }
 }

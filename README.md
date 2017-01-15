@@ -1,5 +1,5 @@
 
-# exec-limiter-cli
+# `$ exec-limiter`
 
  [![Patreon](https://img.shields.io/badge/Support%20me%20on-Patreon-%23e6461a.svg)][patreon] [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/exec-limiter-cli.svg)](https://www.npmjs.com/package/exec-limiter-cli) [![Downloads](https://img.shields.io/npm/dt/exec-limiter-cli.svg)](https://www.npmjs.com/package/exec-limiter-cli) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
@@ -7,19 +7,38 @@
 
 ## :cloud: Installation
 
+You can install the package globally and use it as command line tool:
+
+
 ```sh
-$ npm i --save exec-limiter-cli
+$ npm i -g exec-limiter-cli
 ```
 
-
-## :clipboard: Example
-
+:bulb: **ProTip**: If you want to use this package as module, check out [`exec-limiter`—the API version of it](http://github.com/IonicaBizau/exec-limiter).
 
 
-```js
-const execLimiterCli = require("exec-limiter-cli");
+Then, run `exec-limiter --help` and see what the CLI tool can do.
 
-console.log(execLimiterCli());
+
+```
+$ exec-limiter --help
+Usage: exec-limiter <input> [options]
+
+Run multiple shell commands in parallel, but with a limit.
+
+Command arguments:
+  <input>  The input file.
+
+Options:
+  -m, --max <max>  The number of how many parallel processes you want
+                   to run.
+  -v, --version    Displays version information.
+  -h, --help       Displays this help.
+
+Examples:
+  $ exec-limiter -m 3 commands.txt
+
+Documentation can be found at https://github.com/Bloggify/exec-limiter-cli#readme.
 ```
 
 ## :yum: How to contribute
