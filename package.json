@@ -1,0 +1,45 @@
+{
+  "name": "exec-limiter-cli",
+  "description": "Run multiple shell commands in parallel, but with a limit.",
+  "keywords": [
+    "exec",
+    "limiter",
+    "cli",
+    "run",
+    "multiple",
+    "shell",
+    "commands",
+    "in",
+    "parallel",
+    "but",
+    "with",
+    "a",
+    "limit"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "homepage": "https://github.com/Bloggify/exec-limiter-cli#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Bloggify/exec-limiter-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bloggify/exec-limiter-cli/issues"
+  }
+}
