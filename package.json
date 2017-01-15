@@ -26,7 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
-  "homepage": "https://github.com/Bloggify/exec-limiter-cli#readme",
+  "homepage": "https://github.com/IonicaBizau/exec-limiter-cli#readme",
   "files": [
     "bin/",
     "app/",
@@ -40,10 +40,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Bloggify/exec-limiter-cli.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/exec-limiter-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/Bloggify/exec-limiter-cli/issues"
+    "url": "https://github.com/IonicaBizau/exec-limiter-cli/issues"
   },
   "dependencies": {
     "exec-limiter": "^3.2.5",
