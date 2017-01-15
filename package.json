@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "exec-limiter": "bin/exec-limiter.js"
+  },
   "name": "exec-limiter-cli",
   "description": "Run multiple shell commands in parallel, but with a limit.",
   "keywords": [
@@ -41,5 +44,10 @@
   },
   "bugs": {
     "url": "https://github.com/Bloggify/exec-limiter-cli/issues"
+  },
+  "dependencies": {
+    "exec-limiter": "^3.2.5",
+    "read-utf8": "^1.2.5",
+    "tilda": "^4.4.5"
   }
 }
