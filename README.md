@@ -38,7 +38,7 @@ Options:
 Examples:
   $ exec-limiter -m 3 commands.txt
 
-Documentation can be found at https://github.com/Bloggify/exec-limiter-cli#readme.
+Documentation can be found at https://github.com/IonicaBizau/exec-limiter-cli#readme.
 ```
 
 ## :yum: How to contribute

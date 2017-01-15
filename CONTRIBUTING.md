@@ -61,6 +61,6 @@ Thanks! :sweat_smile:
 
 
 
-[1]: https://github.com/Bloggify/exec-limiter-cli/issues
+[1]: https://github.com/IonicaBizau/exec-limiter-cli/issues
 
 [2]: https://github.com/IonicaBizau/code-style
