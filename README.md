@@ -13,7 +13,11 @@ You can install the package globally and use it as command line tool:
 
 
 ```sh
-$ npm i -g exec-limiter-cli
+# Using npm
+npm install --global exec-limiter-cli
+
+# Using yarn
+yarn global add exec-limiter-cli
 ```
 
 :bulb: **ProTip**: If you want to use this package as module, check out [`exec-limiter`—the API version of it](http://github.com/IonicaBizau/exec-limiter).
